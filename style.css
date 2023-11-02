@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+
+}
+body{
+
+    background-color: lightblue;
+    display: flex;
+    font-family:sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+margin: 50px; 
+    background-color: white;
+    width: 100%;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 65px 55px rgb(3, 68, 109);
+
+}
+.left_side{ 
+    position: relative;
+    background:#032a3d;
+    padding: 40px;
+}
+.right_side{
+background-color: white;
+position: relative;
+padding: 40px;
+
+}
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+.img_box{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+margin: auto;
+box-shadow: 0 10px 25px rgb(0, 0, 0.1);
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    
+}
+.profile_text h2{
+color: white;
+font-size: 1.2em;
+margin-top: 20px;
+font-weight: 600;
+font-style: italic;
+text-align: center;
+}
+.title{
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin-bottom: 5px;
+}
+.contactinfo ul{
+    position: relative;
+}
+.contactinfo ul li{ 
+
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactinfo .icon{
+    display: inline-block;
+    width: 20px;
+    color: aqua;
+}
+.contactinfo .text {
+    color: aliceblue;
+}
+
+.contactinfo {
+    margin-bottom: 20px;
+
+}
+/* education */
+.contactinfo h3{ color: beige;
+margin: 20px 0;}
+
+.contactinfo h5{
+    color: rgba(78, 231, 242, 0.934);
+    font-weight: 500;
+}
+.contactinfo h4{
+    color: white;
+    font-weight: 400;
+}
+/*--language-- */
+.language {color: rgb(237, 241, 241);}
+.language h5{
+    color:rgba(78, 231, 242, 0.934);
+}
+/* --skills-- */
+.skills{ color: aliceblue;
+    margin: 20px 0;
+
+}
+.skills h5{ color:aqua}
+.aboutme{
+    margin: bottom 50px;
+}
+.aboutme .last-child{
+    margin-bottom: 0;
+}
+.title2{
+
+    color: #1b9ada;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+   
+}
+.aboutme p{ color: #032a3d;
+}
+/* -- work-- */
+.work{   color:#032a3d;
+    
+    
+}
+.text3{ color: #1b9ada;
+    margin: 15px 0;
+    font-weight: bold;
+
+}
+.work h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: bold;
+}
+/* --ref-- */
+.reference p{
+   
+    color: #032a3d;
+    font-size: 600;
+    
+    
+}
+
+.ador { 
+    font-weight: 600;
+    color: #39a9e1;
+    margin: 5px 0;
+}
